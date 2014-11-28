@@ -47,7 +47,7 @@ namespace GitLink
                 WaitForKeyPress();
 #endif
 
-                return result;
+                return 0;
             }
             catch (Exception ex)
             {
